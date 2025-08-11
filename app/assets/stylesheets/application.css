@@ -13,3 +13,66 @@
  *= require_tree .
  *= require_self
  */
+/* Base */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+/* Title */
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 24px;
+}
+
+/* Quoted blocks (You / Coach) */
+.quote {
+  border-left: 6px solid #e6e6e6;
+  padding: 12px 16px;
+  margin: 0 0 24px;
+  background: #fff;
+}
+
+.quote .from {
+  display: block;
+  color: #666;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+/* Coach answer highlight */
+.answer {
+  background: #fff8cc;            /* soft yellow */
+  border-left: 6px solid #e6e6e6; /* keep same gutter */
+  padding: 14px 16px;
+  margin: 24px 0;
+}
+
+.answer strong {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #3980f7;
+  text-decoration: none;
+}
+.back-link:hover { text-decoration: underline; }
+
+/* Small tweaks */
+p { margin: 0; }
